@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(36, 36, 36, 0.5), #000), 
+                url('images/cover.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav .logo {
+    width: 160px;
+    height: auto;
+    cursor: pointer;
+}
+
+nav .logo img {
+    width: 100%;
+}
+
+nav button {
+    border: 0;
+    outline: none;
+    background: rgb(206, 12, 12);
+    color: white;
+    padding: 10px 27px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+nav.lang-btn{
+    background: transparent;
+    border: 1px solid white;
+}
+
+nav.lang-btn i{
+    margin-left: 6px;
+}
+
+.header-text{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.header-text h1{
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 700;
+}
+
+.header-text h3{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.header-text p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.header-text .email{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin: auto;
+}
+
+.email input {
+    padding: 16px 40px;
+    outline: none;
+    border: 1px solid grey;
+    background: rgba(36, 36, 36, 0.8);
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+}
+
+.email button{
+    background-color: red;
+    padding: 12px 25px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    font-size: 22px;
+    color: white;
+}
+
+.email button i{
+    margin-left: 8px;
+}
+
+hr{
+    background: grey;
+    width: 100%;
+    height: 7px;
+    border: 0;
+    outline: 0;
+    margin: 20px 0;
+}
+
+nav.newbtn{
+    background-color: red;
+    padding: 12px 25px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    font-size: 22px;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.body-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+    height: 520px;
+}
+
+.text-col{
+    width: 50%;
+}
+
+.text-col h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.text-col p{
+    font-size: 20px;
+}
+
+.image-col img {
+    height: auto;
+    width: 550px;
+    position: relative;
+    z-index: 5;
+}
+
+.container-ind {
+    display: flex;
+    flex-direction:row;
+    gap: 13px;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color:white;
+    margin-left: 10px;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: black;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+select:hover {
+    background-color:maroon;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;  
+    gap: 10px;  
+}
+
+.video-item {
+    text-align: center;
+}
+
+video {
+    border-radius: 10px;
+    border: 3px solid grey;
+    margin-bottom: 10px;
+}
+    
+ .faq{
+    width: 100%;
+font-size: 45px;
+ }
+
+ .faq h1{
+    text-align: center;
+    margin-bottom: 10px;
+ }
+.faq .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.faq .row button{
+    padding: 20px 50px;
+    width: 70%;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #353232;
+    text-align: left;
+color: #fff;
+border: 0;
+outline: 0;
+margin-bottom: 10px;
+}
+
+.faq.row button:hover{
+background: #5a5757;
+}
+.faq .row button::after{
+    content: '+';
+    float: right;
+    font-size: 32px;
+}
+
+.faq-footer .header-text {
+  
+    margin-bottom:40px;
+ 
+
+}
